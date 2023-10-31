@@ -10,7 +10,7 @@ const Navbar = () => {
     const HandleClick =() =>  setActive(!active)
     
     return (
-    <nav className='w-full flex justify-between items-center max-w-[1440px] p-7 px-8 relative'>
+    <nav className='w-full flex justify-between items-center max-w-[1440px] p-7 px-8 relative z-10 '>
         <img src={logo} alt="logo" />
         <img src={hamburger} alt="hamburger" onClick={HandleClick} className={active ? 'hidden' : 'flex md:hidden'}/>
         <div className='hidden md:flex relative  bg-secondary px-12 items-center h-24 -mt-7 -mr-8 lg:px16 w-2/3 lg:mt-0'>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <li><strong className='mr-3'>02</strong>CREW</li>
                 <li><strong className='mr-3'>03</strong>TECNOLOGY</li>
             </ul>
-            <div className='bg-primary opacity-20  w-full h-full '></div>
+            <div className='bg-primary   w-full h-full '></div>
         </div>
     </nav>
   )
