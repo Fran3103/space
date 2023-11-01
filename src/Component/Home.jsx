@@ -2,7 +2,7 @@
 
 const Home = () => {
   return (
-    <div  className='bg-bgMobile  h-full bg-no-repeat bg-contain absolute top-0 z-0  w-screen flex flex-col items-center justify-start gap-8 text-center pt-32 sm:bg-bgTablet sm:bg-cover lg:bg-bgDesktop lg:bg-auto lg:flex-row lg:justify-around lg:items-center lg:gap-20'>
+    <div  className='bg-bgMobile  h-full bg-no-repeat bg-contain absolute top-0 z-0  w-screen flex flex-col items-center justify-start gap-8 text-center pt-32 sm:bg-bgTablet sm:bg-cover lg:bg-bgDesktop lg:bg-cover lg:flex-row lg:justify-around lg:items-center lg:gap-20'>
 
      
         <div className="flex flex-col gap-7  max-w-[450px] sm:mt-12 lg:text-left lg:items-start ">
@@ -16,7 +16,7 @@ const Home = () => {
         </div>
             
        
-       <button className="mt-7 tracking-wider bg-thirt w-32 h-32 rounded-full m-auto  hover:shadow-[0px_0px_4px_30px] transition-all duration-300 font-primary text-xl pt-2 sm:w-48 sm:h-48 sm:mt-14 lg:m-0 lg:mt-32 lg:w-60 lg:h-60 lg:text-3xl"> 
+       <button className="mt-7 tracking-wider bg-bg-button w-32 h-32 rounded-full m-auto  hover:shadow-[0px_0px_4px_30px] transition-all duration-300 font-primary text-xl pt-2 sm:w-48 sm:h-48 sm:mt-14 lg:m-0 lg:mt-32 lg:w-60 lg:h-60 lg:text-3xl"> 
             EXPLORE
        </button>
     </div>
