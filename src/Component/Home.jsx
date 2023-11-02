@@ -2,8 +2,8 @@
 
 const Home = () => {
   return (
-    <div  className='bg-bgMobile  h-full bg-no-repeat bg-cover absolute top-0 z-0  w-screen flex flex-col items-center justify-start gap-8 text-center pt-32 sm:bg-bgTablet  lg:bg-bgDesktop lg:flex-row lg:justify-around lg:items-center lg:gap-20'>
-
+    <div  className='bg-bgMobileHome  h-full bg-no-repeat bg-cover absolute top-0 z-0  w-screen flex flex-col items-center justify-start gap-8 text-center pt-32 sm:bg-bgTabletHome  lg:bg-bgDesktopHome lg:flex-row lg:justify-around lg:items-center lg:gap-20'>
+        
      
         <div className="flex flex-col gap-7  max-w-[450px] sm:mt-12 lg:text-left lg:items-start ">
             <h5 className="text-lg text-secondary font-secondary tracking-widest sm:-mb-5 lg:text-2xl">
