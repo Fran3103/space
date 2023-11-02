@@ -1,4 +1,5 @@
 
+import { Route, Routes } from "react-router-dom"
 import Crew from "./Component/Crew"
 import Destinations from "./Component/Destinations"
 import Home from "./Component/Home"
@@ -10,10 +11,16 @@ const App = () => {
   return (
     <div>
         <Navbar/>
-        <Home/>
-        <Destinations/>
-        <Crew/>
-        <Technology/>
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/destination" element={<Destinations/>}/>
+            <Route path="/crew" element={<Crew/>}/>
+            <Route path="/technology" element={<Technology/>}/>
+        </Routes>
+        
+        
+        
+        
 
     </div>
   )

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import data from '../../data.json'
 
 const Destinations = () => {
-    console.log(data.destinations)
+   
     const [destino, setDestino]= useState (0)
     const Moon = () => {
         setDestino(0)
