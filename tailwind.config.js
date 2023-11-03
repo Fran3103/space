@@ -9,7 +9,8 @@ export default {
             primary: '#0B0D17',
             secondary: '#D0D6f9',
             thirt: '#FFFFFF',
-            four:'#4D5057'
+            four:'#4D5057',
+            Gradient: 'rgba(208,204,209, 0.45)'
 
         },
         fontFamily: {
@@ -33,7 +34,7 @@ export default {
             'bgTabletTechnology': 'url(\'src/assets/Technology/background-Technology-tablet.jpg\')',
             'bgDesktopTechnology': 'url(\'src/assets/Technology/background-Technology-desktop.jpg\')',
             
-         
+            'bg-tech1':'url(\'src/assets/Technology/background-Technology-desktop.jpg\')',
         },
         backgroundColor:{
             'bgGradient': 'rgba(208,204,209, 0.45)',
@@ -44,7 +45,7 @@ export default {
         screens: {
             sm: '480px',
             md: '768px',
-            lg: '976px',
+            lg: '1060px',
             xl: '1440px',
           },
       extend: {},

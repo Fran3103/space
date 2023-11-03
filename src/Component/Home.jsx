@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Home = () => {
@@ -16,9 +17,12 @@ const Home = () => {
         </div>
             
        
-       <button className="mt-7 tracking-wider bg-bg-button w-32 h-32 rounded-full m-auto  hover:shadow-[0px_0px_4px_30px] transition-all duration-300 font-primary text-xl pt-2 sm:w-48 sm:h-48 sm:mt-14 lg:m-0 lg:mt-32 lg:w-60 lg:h-60 lg:text-3xl"> 
-            EXPLORE
-       </button>
+       <Link  to='/destination'> 
+        <button className="mt-7 tracking-wider bg-bg-button w-32 h-32 rounded-full m-auto  hover:shadow-[0px_0px_4px_30px] transition-all duration-300 font-primary text-xl pt-2 sm:w-48 sm:h-48 sm:mt-14 lg:m-0 lg:mt-32 lg:w-60 lg:h-60 lg:text-3x active:shadow-[0px_0px_4px_60px] ">EXPLORE
+
+        </button>
+            
+       </Link>
     </div>
   )
 }

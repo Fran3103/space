@@ -39,27 +39,27 @@ const Destinations = () => {
     return (
         <div className='  bg-bgMobileDestination h-full bg-no-repeat bg-cover absolute top-0 z-0  w-screen  sm:bg-bgTabletDestination lg:bg-bgDesktopDestination flex justify-center'>
          
-            <div className='flex flex-col   h-full   pt-32   items-center  sm:justify-start sm:px-8 lg:flex-row max-w-[1440px] lg:pt-0 lg:-mt-12 '>
+            <div className='flex flex-col   h-full   pt-32   items-center  sm:justify-start sm:px-8 lg:flex-row max-w-[1440px] lg:pt-0 lg:-mt-12 lg:gap-32 '>
                 <div className='flex flex-col justify-center text-center gap-4 mb-4 px-4  w-full ' >
-                        <h2 className='text-thirt font-secondary text-xl tracking-widest mb-4 sm:text-left sm:text-3xl lg:-mt-5 '>
+                        <h2 className='text-thirt font-secondary text-xl tracking-widest mb-4 sm:text-left sm:text-3xl lg:mt-16 '>
                             <span className='text-four font-bold '>01</span> PICK YOU DESTINATION
                         </h2>
-                        <img src={data.destinations[destino].images.png} alt={data.destinations[destino].name} className='w-[40%] m-auto sm:w-[50%] sm:pt-5  lg:w-[70%]'/>
+                        <img src={data.destinations[destino].images.png} alt={data.destinations[destino].name} className='w-[40%] m-auto sm:w-[400px] sm:pt-5  lg:w-[500px]'/>
                     </div>
 
-                <div className='flex flex-col justify-center items-center gap-4 lg:items-start'>
+                <div className='flex flex-col justify-center items-center gap-4 lg:items-start lg:mt-32 h-[600px] md:w-[600px]'>
                         <nav>
                             <ul className='flex gap-4 justify-center items-center font-secondary tracking-widest sm:text-2xl sm:gap-10'>
-                                <li onClick={Moon} className={active ? 'text-thirt  border-b-4 pb-1 mt-2  sm:pb-4 sm:mt-6 ' : 'text-secondary'}>MOON</li>
-                                <li onClick={Mars} className={active2 ? 'text-thirt font-bold  border-b-4 pb-1 mt-2 sm:pb-4 sm:mt-6 ' : 'text-secondary'}>MARS</li>
-                                <li onClick={Europa} className={active3 ? 'text-thirt font-bold border-b-4 pb-1 mt-2 sm:pb-4 sm:mt-6 ' : 'text-secondary'}>EUROPA</li>
-                                <li onClick={Titan} className={active4 ? 'text-thirt font-bold  border-b-4 pb-1 mt-2 sm:pb-4 sm:mt-6  ' : 'text-secondary'}>TITAN</li>
+                                <li onClick={Moon} className={active ? 'text-thirt  border-b-4 pb-1 mt-2  sm:pb-4 sm:mt-6 cursor-pointer ' : 'text-secondary hover:text-thirt cursor-pointer'}>MOON</li>
+                                <li onClick={Mars} className={active2 ? 'text-thirt font-bold  border-b-4 pb-1 mt-2 sm:pb-4 sm:mt-6  cursor-pointer' : 'text-secondary hover:text-thirt cursor-pointer'}>MARS</li>
+                                <li onClick={Europa} className={active3 ? 'text-thirt font-bold border-b-4 pb-1 mt-2 sm:pb-4 sm:mt-6 cursor-pointer' : 'text-secondary hover:text-thirt cursor-pointer'}>EUROPA</li>
+                                <li onClick={Titan} className={active4 ? 'text-thirt font-bold  border-b-4 pb-1 mt-2 sm:pb-4 sm:mt-6 cursor-pointer ' : 'text-secondary hover:text-thirt cursor-pointer'}>TITAN</li>
                             </ul>
                         </nav>
                                 
-                        <div className='flex flex-col justify-center items-center px-4 mt-4 mb-5 text-center gap-4 max-w-[800px] lg:items-start lg:px-0'>
+                        <div className='flex flex-col justify-center items-center px-4 mt-4 mb-5 text-center gap-4 max-w-[800px] lg:items-start lg:px-0 w-full'>
                             <h1 className='text-6xl uppercase font-primary text-secondary sm:text-8xl sm:py-5 lg:text-[150px]'>{data.destinations[destino].name}</h1>
-                            <p className='text-secondary font-thin tracking-widest font-secondary sm:text-xl sm:leading-loose lg:text-left lg:text-xl lg:mr-3'>{data.destinations[destino].description}</p>
+                            <p className='text-secondary font-thin tracking-widest font-secondary sm:text-xl sm:leading-loose lg:text-left lg:text-lg lg:mr-3'>{data.destinations[destino].description}</p>
                             <hr className='w-full text-secondary my-2'/>
                         </div>
                         <div className='flex flex-col justify-center items-center px-4 gap-4 text-center sm:flex-row sm:justify-around sm:gap-5 w-full lg:text-left lg:justify-start lg:gap-16'>
