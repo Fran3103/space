@@ -18,23 +18,23 @@ export default {
             secondary: 'Barlow Condensed'
         },
         backgroundImage: {
-            'bgMobileHome': 'url(\'src/assets/home/background-home-mobile.jpg\')',
-            'bgTabletHome': 'url(\'src/assets/home/background-home-tablet.jpg\')',
-            'bgDesktopHome': 'url(\'src/assets/home/background-home-desktop.jpg\')',
+            'bgMobileHome': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/home/background-home-mobile.jpg?raw=true\')',
+            'bgTabletHome': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/home/background-home-tablet.jpg?raw=true\')',
+            'bgDesktopHome': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/home/background-home-desktop.jpg?raw=true\')',
 
-            'bgMobileDestination': 'url(\'src/assets/destination/background-destination-mobile.jpg\')',
-            'bgTabletDestination': 'url(\'src/assets/destination/background-destination-tablet.jpg\')',
-            'bgDesktopDestination': 'url(\'src/assets/destination/background-destination-desktop.jpg\')',
+            'bgMobileDestination': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/destination/background-destination-mobile.jpg?raw=true\')',
+            'bgTabletDestination': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/destination/background-destination-tablet.jpg?raw=true\')',
+            'bgDesktopDestination': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/destination/background-destination-desktop.jpg?raw=true\')',
 
-            'bgMobileCrew': 'url(\'src/assets/crew/background-crew-mobile.jpg\')',
-            'bgTabletCrew': 'url(\'src/assets/crew/background-crew-tablet.jpg\')',
-            'bgDesktopCrew': 'url(\'src/assets/crew/background-crew-desktop.jpg\')',
+            'bgMobileCrew': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/crew/background-crew-mobile.jpg?raw=true\')',
+            'bgTabletCrew': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/crew/background-crew-tablet.jpg?raw=true\')',
+            'bgDesktopCrew': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/crew/background-crew-desktop.jpg?raw=true\')',
 
-            'bgMobileTechnology': 'url(\'src/assets/Technology/background-Technology-mobile.jpg\')',
-            'bgTabletTechnology': 'url(\'src/assets/Technology/background-Technology-tablet.jpg\')',
-            'bgDesktopTechnology': 'url(\'src/assets/Technology/background-Technology-desktop.jpg\')',
+            'bgMobileTechnology': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/technology/background-technology-mobile.jpg?raw=true\')',
+            'bgTabletTechnology': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/technology/background-technology-tablet.jpg?raw=true\')',
+            'bgDesktopTechnology': 'url(\'https://github.com/Fran3103/space/blob/main/src/assets/technology/background-technology-desktop.jpg?raw=true\')',
             
-            'bg-tech1':'url(\'src/assets/Technology/background-Technology-desktop.jpg\')',
+            'bg-tech1':'url(\'https://github.com/Fran3103/space/blob/main/src/assets/technology/background-technology-desktop.jpg?raw=true\')',
         },
         backgroundColor:{
             'bgGradient': 'rgba(208,204,209, 0.45)',
