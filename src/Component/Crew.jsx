@@ -36,7 +36,7 @@ const Crew = () => {
         setActive4(false)
     }
     return (
-        <div className='  bg-bgMobileCrew h-screen bg-no-repeat bg-cover absolute top-0 z-0  w-screen  sm:bg-bgTabletCrew lg:bg-bgDesktopCrew flex justify-center '>
+        <div className='  bg-bgMobileCrew h-screen bg-no-repeat bg-cover absolute top-0 z-0  w-screen  sm:bg-bgTabletCrew lg:bg-bgDesktopCrew flex justify-center overflow-hidden'>
         <div className="flex flex-col sm:pt-32 gap-3  max-w-[1440px] m-auto px-5">
                 <h2 className='hidden md:flex text-thirt font-secondary  text-xl tracking-widest  md:text-left md:text-3xl md:my-9 lg:mt-32  lg:-mb-12'>
                                 <span className='text-four font-bold mr-4 '>01</span> PICK YOU DESTINATION
@@ -47,17 +47,17 @@ const Crew = () => {
                     <h2 className='text-thirt font-secondary text-xl tracking-widest mb-4  md:hidden lg:text-left'>
                                 <span className='text-four font-bold '>01</span> PICK YOU DESTINATION
                             </h2>
-                            <img src={data.crew[destino].images.png} alt={data.crew[destino].name} className='w-[60%] m-auto lg:w-[650px] lg:h-full lg:-mt-32 md:-mt-20 '/>
+                            <img src={data.crew[destino].images.png} alt={data.crew[destino].name} className='w-[60%] m-auto lg:w-[650px] lg:h-full lg:-mt-[70px] md:-mt-20 '/>
                                 <hr className='w-full text-secondary -mt-4 md:hidden'/>
                         </div>
 
                     <div className='flex flex-col justify-center items-center gap-4 md:flex-col-reverse lg:items-start '>
                             <nav>
                                 <ul className='flex gap-4 justify-center items-center font-secondary tracking-widest mt-12 lg:ml-6'>
-                                    <li onClick={Moon} className={active ? 'rounded-full w-4 h-4 bg-bg-button ' : 'rounded-full w-4 h-4 bg-bgGradient'}></li>
-                                    <li onClick={Mars} className={active2 ? 'rounded-full w-4 h-4 bg-bg-button ' : 'rounded-full w-4 h-4 bg-bgGradient'}></li>
-                                    <li onClick={Europa} className={active3? 'rounded-full w-4 h-4 bg-bg-button ' : 'rounded-full w-4 h-4 bg-bgGradient'}></li>
-                                    <li onClick={Titan} className={active4 ? 'rounded-full w-4 h-4 bg-bg-button ' : 'rounded-full w-4 h-4 bg-bgGradient'}></li>
+                                    <li onClick={Moon} className={active ? 'rounded-full w-4 h-4 bg-bg-button cursor-pointer' : 'rounded-full w-4 h-4 bg-bgGradient cursor-pointer'}></li>
+                                    <li onClick={Mars} className={active2 ? 'rounded-full w-4 h-4 bg-bg-button cursor-pointer' : 'rounded-full w-4 h-4 bg-bgGradient cursor-pointer'}></li>
+                                    <li onClick={Europa} className={active3? 'rounded-full w-4 h-4 bg-bg-button cursor-pointer' : 'rounded-full w-4 h-4 bg-bgGradient cursor-pointer'}></li>
+                                    <li onClick={Titan} className={active4 ? 'rounded-full w-4 h-4 bg-bg-button cursor-pointer ' : 'rounded-full w-4 h-4 bg-bgGradient cursor-pointer'}></li>
                                 </ul>
                             </nav>
                                     

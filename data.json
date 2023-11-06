@@ -76,7 +76,7 @@
     {
       "name": "Anousheh Ansari",
       "images": {
-        "png": "shttps://github.com/Fran3103/space/blob/main/src/assets/crew/image-anousheh-ansari.png?raw=true",
+        "png": "https://github.com/Fran3103/space/blob/main/src/assets/crew/image-anousheh-ansari.png?raw=true",
         "webp": "./assets/crew/image-anousheh-ansari.webp"
       },
       "role": "Flight Engineer",
